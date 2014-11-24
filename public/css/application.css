@@ -1,0 +1,7 @@
+#choices form {
+    float: left;
+}
+
+#choices .results {
+   clear: left;
+}

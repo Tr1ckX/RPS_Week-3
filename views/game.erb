@@ -1,0 +1,25 @@
+
+<p>Welcome <%= @player_name %>!</p>
+
+<section id="choices">
+
+  <p>Make your choice!</p>
+
+  <form action="/game" method="post">
+    <input class='rock' type='image' src="img/rock.png" name="choice" value="rock" height="290" width="307" />
+    <input type='hidden' name='player_name' value="<%= @player_name %>">
+  </form>
+
+  <form action="/game" method="post">
+    <input type='image' src="img/paper.png" name="choice" value="paper" height="305" width="300" />
+    <input type='hidden' name='player_name' value="<%= @player_name %>">
+  </form>
+
+  <form action="/game" method="post">
+    <input type='image' src="img/scissors.png" name="choice" value="scissors" height="305" width="260" />
+    <input type='hidden' name='player_name' value="<%= @player_name %>">
+  </form>
+
+  <h2><p class="results"><%= @result %></p></h2>
+
+</section>
