@@ -15,3 +15,5 @@ Rock, Paper, Scissors
 Design a Rock, Paper, Scissors game, that can be played against the computer.
   - basic CSS to create the appearence of the page
   - all the beautiful things from this week
+
+You can find this week's project [here](https://github.com/Tr1ckX/Sinatra_Week-3) and [here](https://github.com/Tr1ckX/Battleships_Sinatra_Week-3)
